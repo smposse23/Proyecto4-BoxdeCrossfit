@@ -1,0 +1,53 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $color2;
+}
+/*Nav */
+.nav__color {
+  background-color: $color2;
+  box-shadow: 0 0 4px 0 rgb(14, 13, 13);
+}
+.nav-item {
+  margin: 5px;
+  .nav__link {
+    font-size: 13px;
+    text-decoration: none;
+    color: $color1;
+    text-transform: uppercase;
+    &:hover {
+      color: black;
+      transition: 0.5s;
+    }
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.fa-solid.fa-bars {
+  color: $color1;
+}
+.button4 {
+  background-color: $color1;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 50px 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  animation-delay: 2.5s;
+  &:hover {
+    background-color: black;
+    color: $color1;
+    transition: all 0.5s;
+  }
+}
+/*Footer*/
+.footer {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}

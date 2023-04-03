@@ -1,0 +1,111 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Imágenes/Heroimage3.png);
+  @include background(cover, center, none);
+}
+.hero__title {
+  color: white;
+  font-size: $fontsize;
+  margin-left: 50%;
+  margin-right: 5%;
+  font-weight: bold;
+  span {
+    color: $color1;
+  }
+}
+.hero__text {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+}
+.button1 {
+  background-color: $color1;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 50px 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  animation-delay: 4s;
+  &:hover {
+    background-color: white;
+    color: $color1;
+    transition: all 0.5s;
+  }
+}
+.entrenemientos {
+  transform: skew(0deg, 5deg);
+  overflow: hidden;
+  background-color: $color2;
+  margin-top: -35px;
+  height: auto;
+}
+.entrenamientos__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  transform: skew(0deg, -5deg);
+  padding-bottom: 20px;
+}
+.entrenamientos__contenido h2 {
+  color: black;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.entrenamientos__contenido a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px auto 15px 5px;
+  text-transform: uppercase;
+  &:hover {
+    color: $color1;
+    transition: all 0.5s;
+  }
+}
+.video {
+  display: none;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map h2 {
+  color: $color1;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.map img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.button2 {
+  background-color: $color1;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  animation-delay: 7s;
+  &:hover {
+    background-color: $color2;
+    color: $color1;
+    transition: all 0.5s;
+  }
+}
